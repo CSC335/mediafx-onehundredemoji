@@ -1,3 +1,7 @@
+/*
+ * Christopher Schiff
+ */
+
 package PlaySongDemo;
 
 /**
@@ -51,7 +55,7 @@ public class PlayAnMP3 extends Application {
     mediaPlayer.play();
       
     mediaPlayer.setOnEndOfMedia(new Waiter());
-    System.out.println("You may need to shut this App down");
+    System.out.println("helpful edited string here");
  
     }
   
